@@ -1,0 +1,14 @@
+{
+  "name": "udio-system-audio-capture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "macOS CLI to capture your own Udio song audio by recording system output",
+  "scripts": {
+    "install": "playwright install chromium",
+    "capture": "node src/capture.js",
+    "test": "node src/self-test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  }
+}
